@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <div class="slider" id="slider">
+        <div class="slides">
+            <div class="slide"><img src="images/sunset.jpeg" alt="sunset"></div>
+            <div class="slide"><img src="images/sunrise.jpeg" alt="sunrise"></div>
+            <div class="slide"><img src="images/sea.jpeg" alt="sea"></div>
+        </div>
+        <button class="button prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
